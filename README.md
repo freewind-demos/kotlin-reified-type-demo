@@ -1,20 +1,6 @@
-Kotlin Hello World Demo
+Kotlin Reified Type Demo
 =======================
-
-Hello world from kotlin.
 
 ```
 ./gradlew run
 ```
-
-You will see "Hello, Kotlin!" from console.
-
-Run tests:
-
-```
-./gradlew test
-```
-
-You will see test result from console.
-
-

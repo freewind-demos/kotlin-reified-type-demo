@@ -1,12 +1,12 @@
 package example
 
+inline fun <reified T> membersOf() = T::class.members
+
 object Hello {
     @JvmStatic
     fun main(args: Array<String>) {
-        println(hello("Kotlin"))
+        println(membersOf<StringBuilder>())
     }
-
-    fun hello(name: String): String = "Hello, $name!"
-
+    
 }
 
